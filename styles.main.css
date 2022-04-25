@@ -1,0 +1,35 @@
+head {
+    display: none;
+}
+meta {
+    display: none;
+}
+title {
+    display: none;
+}
+link {
+    display: none;
+}
+body {
+    background-color: #fdfdff;
+    font-family: Roboto, open-sans, sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+body {
+    display: black;
+    margin: 8px;
+}
+#content {
+    background-color: #fff;
+    border: 1px solid;
+}
+div {
+    display: block;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+    align-items: center;
+}
