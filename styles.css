@@ -19,8 +19,8 @@ body {
 
 #content {
     background-color: #fff;
-    border: 1px solid;
 }
+
 div {
     display: block;
 }
@@ -28,6 +28,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+
 }
 
 img{
@@ -38,7 +39,40 @@ img{
 .home-grid{
     /* margin: 0 auto; */
     /* align-items: center; */
-    /* justify-content: center; */
+    justify-content: center;
     font-size: 15px;
     
+}
+.block {
+    display: block;
+    width: px;
+    height: 200px;
+    background-color: lightskyblue;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 10px #888888;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  .block-2 {
+    display: block;
+    width: px;
+    height: 60px;
+    background-color: lightskyblue;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 10px #888888;
+  }
+  
+  .container-2 {
+    text-align: center;
+  }
+.lesson-list {
+    text-align: left;
+}
+.copyright {
+    font-size: 20px;
+}
+.update {
+    font-size: 15px; 
 }
