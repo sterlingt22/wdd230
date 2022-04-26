@@ -14,13 +14,9 @@ body {
     background-color: #fdfdff;
     font-family: Roboto, open-sans, sans-serif;
     max-width: 960px;
-    margin: 0 auto;
     font-size: 20px;
 }
-body {
-    display: black;
-    margin: 8px;
-}
+
 #content {
     background-color: #fff;
     border: 1px solid;
@@ -30,6 +26,19 @@ div {
 }
 header {
     display: grid;
-    grid-template-columns: 1fr 100px 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+}
+
+img{
+    padding: 5%;
+    border-radius: 25px;
+}
+
+.home-grid{
+    /* margin: 0 auto; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-size: 15px;
+    
 }
