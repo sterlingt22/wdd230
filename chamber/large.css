@@ -1,0 +1,116 @@
+body {
+  background-color: #fdfdff;
+  font-family: Roboto, open-sans, sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+body {
+  display: block;
+}
+
+content {
+  background-color: #fff;
+  border: 1px solid;
+}
+div {
+  display: block;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr;
+  align-items: center;
+}
+header-nav-1 {
+  grid-column: 1/4;
+}
+nav {
+  display: black;
+}
+
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+  margin-top: 0;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #2EC4B6;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+nav a {
+  color: white;
+  font-size: 1.1em;
+}
+a:-webkit-any-link {
+  color: webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.logo-box {
+  grid-column: 2/2;
+  justify-self: center;
+  max-width: 100px;
+  z-index: 1;
+}
+div {
+  display: block;
+}
+img {
+  max-width: 100%;
+}
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+  grid-gap: 1em;
+  padding: 15px;
+}
+div {
+  display: block;
+}
+h1,
+h2,
+h3 {
+  font-family: "Racing Sans One", Roboto, serif;
+  color: black;
+  padding: 0.5em 1em;
+  font-size: 2em;
+  text-align: center;
+}
+h4 {
+  font-family: "Racing Sans One", Roboto, serif;
+  color: black;
+  padding: 0.5em 1em;
+  font-size: 1.5em;
+  text-align: center;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
