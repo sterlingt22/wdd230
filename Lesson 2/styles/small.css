@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+h1,
+h2,
+a,
+p,
+img {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+a {
+    color: #000;
+}
+
+img {
+    width: 85%;
+    padding-top: 2rem;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    background-color: #09bccd;
+    margin: 1.5rem;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 10px rgba(32, 23, 23, 0.33);
+}
+
+header div {
+    color: #09bccd;
+    background-color: #000;
+    margin: 0;
+    padding: 1rem;
+}
+
+footer div {
+    color: #09bccd;
+    background-color: #000;
+    margin: 0;
+}
