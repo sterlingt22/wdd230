@@ -1,0 +1,68 @@
+@media (min-width: 600px) {
+    /* Header */
+     header {
+         display: flex;
+         background-color: #FDFDFF;
+     }
+     
+     header h1 {
+         grid-column: 1 / span 2;
+         padding: 75px 0;
+     
+     }
+     header img {
+         padding: 25px;
+         width: auto;
+         height: auto;
+     }
+     
+     h1 {
+         font-weight: 600;
+         color: #393D3F;
+         text-align: center;
+     }
+     
+     
+     /* Horizontal Nav */
+     nav ul { 
+         margin: 0px;
+         display: flex;
+         background-color: #62929E;
+         z-index: 1100;
+     }
+     
+     nav ul li { 
+         flex: 1 1 auto; 
+         color: #FDFDFF;
+         padding: 10px;
+         list-style-type: none;
+     } 
+     
+     nav ul li a {
+         color: #C6C5B9;
+         text-align: center;
+         padding: 0.75rem;
+         text-decoration: none;
+     }
+
+     .colors {
+        width: 100%;
+        min-width: 350px;
+        margin: 30px auto;
+        text-align: center;
+      }
+
+     table {
+        display: table;
+        border-collapse: seperat;
+        box-sizing: border-box;
+        text-indent: initial;
+        border-spacing: 2px;
+        border-color: grey
+      }
+
+     body {
+         margin: auto;
+         width: 50%;
+     }
+ }

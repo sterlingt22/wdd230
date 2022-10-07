@@ -1,0 +1,142 @@
+header {
+    display: flex;
+    background-color: #FDFDFF;
+}
+
+header h1 {
+    grid-column: 1 / span 2;
+    padding: 75px 0;
+}
+
+header img {
+   /* First Edit 
+   padding: 25px;
+    width: 200px;
+    height: auto; */
+    flex: 1 1 auto; 
+    box-shadow: 0px 20px 40px 10px #aaa;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 30px;
+    color:  black;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-width: 599px;
+    background-color: #62929E;
+    z-index: 1100;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #FDFDFF;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none; 
+  }
+  
+  nav ul li { 
+      list-style-type: none;
+      border-bottom: 2px solid #FDFDFF;
+      padding: 5px;
+    
+  } 
+
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #333;
+    color: white;
+  }
+
+body {
+    max-width: 600px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 35px;
+  color: #29221d;
+  text-align: center;  
+}
+
+p {
+  color: #29221d;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.colors th {
+  background-color: #999;
+}
+
+th {
+  display: table-cell;
+  vertical-align: inheret;
+  font-weight: bold;
+  text-align: -international-
+    center;
+}
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.colors td {
+  width: 25%;
+  height: 3em;
+}
+
+.primary {
+  background-color: #FDFDFF;
+}
+
+.secondary{
+background-color: #62929E;
+}
+
+.accent1 {
+  background-color: #C6C5B9;
+}
+
+.accent2 {
+  background-color: #393D3F;
+}
+
+
+table {
+  display: table;
+  border-collapse: seperat;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey
+}
+
+footer {
+    background-color: #62929E;
+    height: 50px;
+}
+
+.footer_info {
+    color: #C6C5B9;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+  
+  
+        
