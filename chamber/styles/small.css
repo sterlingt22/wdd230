@@ -14,7 +14,7 @@ header {
   display: grid;
   grid-template-columns: 20% 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  background-color: #32a899;
+  background-color: #327ba8;
   padding: 10px;
   color: white;
   align-items: center;
@@ -125,7 +125,7 @@ strong {
   grid-column: 1/5;
   grid-row: 2;
   text-align: center;
-  border: 2px solid rgba(55,93,219);
+  border: 2px solid #869FC7;
   background-color: #869FC7;
   padding: 10px;
   color: black;
@@ -141,7 +141,7 @@ main {
 }
 
 #banner {
-  background-color: #98E9DC;
+  background-color: #869FC7;
   text-align: center;
   padding: 5px 0px;
   margin: 5px 0px;
@@ -210,12 +210,12 @@ main {
   grid-row: 5/6;
   border: 2px solid #32a899;
   width: 100%;
-  background-color: #1383b7;
+  background-color: #869FC7;
 }
 
 .spotlight1 {
   flex: auto;
-  background-color: #6c619f;
+  background-color: #869FC7;
   text-align: center;
   padding-top: 10px;
 }
@@ -232,7 +232,7 @@ main {
   grid-column: 1/5;
   grid-row: 3/4;
   text-align: center;
-  background-color: #6f919d;
+  background-color: #869FC7;
   padding-top: 30px;
 }
 
@@ -254,7 +254,7 @@ main {
 
 .joinbtn {
   position: absolute;
-  background-color: #9f98e9;
+  background-color: #869FC7;
    border-radius: 8px;
   box-shadow: 10px 10px 10px rgb(41, 37, 37);
   font: inherit;
@@ -307,7 +307,7 @@ main {
   display: none;
   border: 1px solid rgb(178, 135, 226);
   text-align: center;
-  background-color: #7984c2;
+  background-color: #869FC7;
 }
 
 .rejuvu {
@@ -316,7 +316,7 @@ main {
 
 footer {
   display: block;
-  background-color: #32a899;
+  background-color: #327ba8;
   color:white; 
 } 
 
