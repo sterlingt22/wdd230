@@ -1,18 +1,20 @@
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body{
   max-width: 95%;
   margin: 10%;
+  min-width: 350px;
 }
 
 header {
   display: grid;
   grid-template-columns: 20% 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  background-color: #62929E;
-  margin: 1.25rem auto;
+  background-color: #32a899;
   padding: 10px;
   color: white;
   align-items: center;
@@ -37,6 +39,7 @@ img {
 h1 h2 h3 h4 {
   font-family: 'Noto Serif', serif;
 }
+
 p {
   font-family: 'Lato', sans-serif;
 }
@@ -57,7 +60,7 @@ nav button {
   margin-left: 70%;
 }
 
-nav ul{
+nav ul {
   display: none;
   grid-column: 4/5;
   grid-row: 1;
@@ -68,23 +71,25 @@ nav ul{
   border: none;
 }
   
-nav ul.open{
+nav ul.open {
   display: block;
 }
 
 nav ul li a {
   display: block;
   padding: .2rem 2vw;
-  border-top: 1px solid #C6C5B9;
+  border-top: 1px solid #e0e334;
   text-decoration: none;
   color: white;
   font-size: 1rem;
 }
+
 nav ul li a:hover {
-  background-color: #C6C5B9;
+  background-color: #32a899;
+  color: #32a899;
 }
 
-font {
+strong {
   font-weight: bold;
   font-size: 1rem;
 }
@@ -92,103 +97,226 @@ font {
 .social {
   grid-column: 3/4;
   grid-row: 1;
-  margin-left: auto;
+  color: white;margin-right: 10px;
 }
 
 .social i {
   padding: 2px;
   margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.social i a:hover {
+  background-color: #869FC7;
+  color: #0A1128;
+  padding: 12px;
+}
+
+.social i a:visited {
+  color: white;
+}
+
+.social i a:visited {
+  color: white;
 }
 
 .currentdate {
   grid-column: 1/5;
   grid-row: 2;
   text-align: center;
-  border: 2px solid grey;
-  background-color: #393D3F;
+  border: 2px solid rgba(55,93,219);
+  background-color: #869FC7;
   padding: 10px;
+  color: black;
+  font-weight: bolder;
 }
 
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 300px 1fr 1fr;
   margin: 15px 30px;
   grid-gap: 5px 5px;
+}
+
+#banner {
+  background-color: #98E9DC;
+  text-align: center;
+  padding: 5px 0px;
+  margin: 5px 0px;
 }
 
 .event {
   grid-column: 1/5;
   grid-row: 2/3;
-  border: 2px solid #393D3F;
-  padding: 0px 0px 150px 0px;
+  width: 100%;
+  background-color: #869FC7;
   text-align: center;
+  margin: 5px auto;
+}
+
+.eventimg {
+  width: 35%;
+}
+
+.eventinfo {
+  left: 25px;
+  font-size: x-small;
+  width: 100%;
 }
 
 .hero {
   grid-column: 1/5;
   grid-row: 1/2;
-  border: 2px solid #393D3F;
-  padding: 0px 0px 150px 0px;
-  text-align: center;
+  text-align: left;
+  position: relative;
+  margin: 5px;
+}
+
+.heroimg {
+  width: 100%;
+  height: 100%;
+}
+
+.herotitle {
+  position: absolute;
+  color: rgb(237, 232, 232, 1.5);
+  left: 20px;
+  font-size: 2rem;
+  filter: brightness(120%);
+}
+
+.herobtn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  float: right;
+  background-color: #98E9DC;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px #000;
+  font: inherit;
+  font-size: .6rem;
+  font-weight: bolder;
+  font-style: italic;
+  filter: brightness(120%);
+  padding: 10px 0px;
+  width: 100px;
 }
 
 .nested {
   display: block;
   grid-column: 1/5;
   grid-row: 5/6;
-  border: 2px solid #393D3F;
+  border: 2px solid #32a899;
+  width: 100%;
+  background-color: #1383b7;
 }
 
 .spotlight1 {
   flex: auto;
-  margin: 10px 10px 0px 10px;
-  border: 1px solid #393D3F;
-  padding: 0px 0px 150px 0px;
+  background-color: #6c619f;
   text-align: center;
+  padding-top: 10px;
+}
+
+.spotlight1quote {
+  font-style: oblique;
+}
+
+.state-bank-of-southern-utah {
+  margin: 15px 10px;
 }
 
 .weather {
   grid-column: 1/5;
   grid-row: 3/4;
-  border: 2px solid #393D3F;
-  padding: 0px 0px 150px 0px;
   text-align: center;
+  background-color: #6f919d;
+  padding-top: 30px;
 }
 
 .spotlight2 {
   flex: auto;
-  margin: 0px 10px 10px 10px;
-  border: 1px solid #393D3F;
-  padding: 0px 0px 150px 0px;
+  border: 1px solid rgb(74, 141, 115);
   text-align: center;
+  background-color: #93c0ad;
+  padding-bottom: 10px;
+}
+
+.spotlight2quote {
+  font-style: oblique;
 }
 
 .join {
   display: none;
-  border: 2px solid #393D3F;
-  padding: 0px 0px 150px 0px;
-  text-align: center;
+}
+
+.joinbtn {
+  position: absolute;
+  background-color: #9f98e9;
+   border-radius: 8px;
+  box-shadow: 10px 10px 10px rgb(41, 37, 37);
+  font: inherit;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-style: italic;
+  filter: brightness(120%);
+  flex-direction: row;
+  height: 40px;
+  width: 70%;
+  padding: 7px 0px;
+  top: 10%;
+  left: 15%;
+}
+
+.joinpara {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  margin: 5px auto;
 }
 
 .release {
   grid-column: 1/5;
   grid-row: 4/5;
-  border: 2px solid #393D3F;
-  padding: 0px 0px 150px 0px;
+  width: 100%;
+  border: 2px solid rgb(55, 219, 216);
+  padding: 10px;
+}
+
+.releasetitle {
+  border: 2px solid rgb(80, 156, 119);
+  background-color:rgb(134, 240, 238);
+  color: white;
+  text-align: center;
+}
+
+.pinkdonutimg {
+  opacity: 0.5;
+  height: 10%;
+  width: 20%;
+  margin-left: 40%;
+}
+
+.news {
   text-align: center;
 }
 
 .spotlight3 {
   display: none;
-  border: 1px solid #393D3F;
-  padding: 0px 0px 150px 0px;
+  border: 1px solid rgb(178, 135, 226);
   text-align: center;
+  background-color: #7984c2;
+}
+
+.rejuvu {
+  margin-left: 25%;
 }
 
 footer {
   display: block;
-  background-color: #62929E;
+  background-color: #32a899;
   color:white; 
 } 
 
@@ -199,14 +327,12 @@ footer {
 }
 
 .footerTitle {
-  margin-top: 10px;
   grid-column: 2/3;
   grid-row: 1/2;
   text-align: center;
 }
 
 .contactInfo {
-  margin-top: 20px;
   grid-column: 3/4;
   grid-row: 1/2;
   text-align: center;
@@ -216,8 +342,8 @@ footer {
   grid-column: 1/4;
   grid-row: 2/3;
   text-align: center;
-  border-top: 2px solid #393D3F;
-  padding-top: 8px;
+  border-top: 2px solid rgb(137, 55, 219);
+  padding: 10px;
   font-size: .8rem;
 }
 
