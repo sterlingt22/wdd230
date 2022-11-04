@@ -235,6 +235,24 @@ main {
   padding-top: 30px;
 }
 
+.speed{
+  display: flex;
+  margin-left: 15%;
+}
+
+.speed p {
+  margin-left: 2px;
+ }
+
+.wind {
+  display: flex;
+  margin-left: 15%
+}
+
+.wind p {
+  margin-left: 2px;
+}
+
 .spotlight2 {
   flex: auto;
   border: 1px solid rgb(74, 141, 115);
@@ -309,7 +327,7 @@ main {
   background-color: #869FC7;
 }
 
-.rejuvu {
+.firefighters {
   margin-left: 25%;
 }
 

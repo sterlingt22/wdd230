@@ -34,9 +34,8 @@
       </ul>
     </nav>
     <div class="social"> 
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <a href="images\small-facebook-logo-blue-circle.png" class="fa fa-facebook"></a>
-      <a href="images\Instagram .png" class="fa fa-instagram"></a>
+      <a href="https://www.facebook.com/" class="facebook"><img src="images\facebook100.png" alt="Facebook"></a>
+      <a href="https://www.instagram.com/" class="instagram"><img src="images\instagram.png" alt="Instagram"></a>
     </div>
     <div class="currentdate"><span id="currentdate"></span></div>
   </header>
@@ -55,7 +54,8 @@
     </div>
       <div class="hero">
         <h3 class="herotitle">Community Unity!</h3>
-        <img class="heroimg" src="images\community-unity-resized.png" alt="Image of Mowhaka town">
+        <!--<img class="heroimg" src="images\community-unity-resized.png" alt="Image of Mowhaka town">-->
+        <img class="heroimg" src="images\wdd230-org880x950_resized.jpg" alt="Business Meeting">
         <button class="herobtn">Join The Chamber</button>    
       </div>
       <div class="nested">
@@ -69,27 +69,38 @@
       </div>
         <div class="spotlight2">
           <h3>Spotlight 2</h3>
-          <img src="#" alt="#">
-          <h3 class="spotlight2quote">"#"</h3>
-          <p>Address</p>
+          <img src="images\Spotlight2_resized.png" alt="picture of The Garden Restaurant">
+          <h3 class="spotlight2quote">The Garden Restaurant is a staple of Mowhaka. It was started by the Pitellie family and has been passed down through the generations
+            and has maintained its culture, taste, and warm atmosphere. A lunch or dinner at The Garden will be a lasting memory. 
+          </h3>
+          <p>600 E St George Blvd, St. George, UT, 84770</p>
+          <p>(435)597-5530</p>
         </div>
-      <div class="spotlight3">
-        <h3>Spotlight 3</h3>
-        <img class="" src="" alt="">
-        <h3>Name</h3>
-        <img class="" src="" alt="">
-        <h3>Company moto</h3>
-        <p>Adress</p>
-        <p>Phone</p>
-      </div>
+         <div class="spotlight3">
+         <h3>Spotlight 3</h3>
+         <img class="firefighters" src="images\spotlight3_resized.jpg" alt="ST. George firefighters appreciation">
+         <h3 class="spotlight3quote">St. George fire fighters, we appreciate you! You have saved many town members and their homes over the years. Thank you!</h3>
+         <p>100 E St. George Blvd, St. George, UT, 84770</p>
+         <p>(435)946-5670</p>
+        </div>
       </div>
     <div class="weather">
-      <h1>St. George</h1>
-      <h1>76&#176;F</h1>
-      <h3>Sunny &#9728;&#65039;</h3>
+      <h3>St. George</h3>
+      <p id="temperatureF">
+        <strong>
+          <span>76</span> °F
+        </strong>
+        </p>
+        <p><strong>Sunny &#9728;&#65039;</strong></p>
       <p>H: 80&#176; &#160; L:52&#176;</p>
+      <p>Preciptation: 1%</p>
       <p>Humidity: 18%</p>
-        <p>Wing: 2 mph</p>
+      <div class="speed">
+        <p>Wind Speed: </p>
+        <p id="windspeed"><span>2 </span>mph</p>
+      </div>
+      <div class="wind">
+        <p>Windchill: </p>
     </div>
     <div class="join">
       <button class="joinbtn">Join us!</button>
@@ -98,10 +109,10 @@
       </p>
     </div>  
     <div class="release">
-      <h3 class="releasetitle">News Release</h3>
+      <h3 class=" releasetitle">News Release</h3>
       <div>
         <img class="pinkdounutimg" src="images\pink-box-donuts-resized.png" alt="Image of St George Pink Donut shop">
-        <h3 class="news"><u>St. George's new Pink Dounuts Shop</u></h3>
+        <h3 class="news">St. George's new Pink Dounuts Shop</h3>
         <p>Pink Box Doughnuts opens new location in downtown St. George with a large crowd
            on <br>938 E St George Blvd, St. George, UT 84770
         </p>
@@ -111,23 +122,25 @@
   <footer>
     <div class="footerImg"><img src="images\Mohawka2.jpg" alt="Mowhaka Chamber of Commerce Logo"></div>
     <div class="footerTitle">
-      <h2>Mowhaka Chamber Of Commerce</h2>
+      <h3>Mowhaka Chamber Of Commerce</h3>
       <h4>136 North 100 East</h4>
       <h4>St. George, Utah 84770</h4>
     </div>
     <div class="contactInfo">
       <h4>Mowhakacc@st.george.org</h4>
       <h4>+(435) 628-1650 </h4>
-      <h4>&#128205Location map</h4>
+      <h4>&#128205;Location map</h4>
     </div>
     <div class="date">
-      &copy;<span id="year"></span> Mowhaka Chamber &nbsp|&nbsp <font>Sterling Tucker</font> &nbsp|&nbsp WDD 230 Project &nbsp|&nbsp Last Modification: <span id="modifieddate"></span></div>
-    </div>
+      &copy;<span id="year"></span> Mowhaka Chamber | <strong>Sterling Tucker</strong> | WDD 230 Project | Last Modification: <span id="modifieddate"></span>
   </footer>
 
   <script src="scripts/currentdate.js"></script>
   <script src="https://kit.fontawesome.com/c12ac5d956.js" crossorigin="anonymous"></script>
   <script src="scripts/menu_open.js"></script>
+  <script src="scripts/banner.js"></script>
+  <script src="scripts/windchill.js"></script>
+  <script src="scripts/lazyLoading.js"></script>
 
 </body>
 </html>
