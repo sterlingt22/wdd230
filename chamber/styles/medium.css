@@ -1,150 +1,177 @@
 @media only screen and (min-width: 40rem) {
-	
-	header {
-	  display: grid;
-	  grid-template-columns: 1fr 1fr 1fr 1fr;
-	  grid-template-rows: 1fr;
-	}
-	
-	main {
-	  display: grid;
-	  grid-template-columns: 1fr 1fr 1fr 1fr;
-	  grid-template-rows: 300px 350px 400px 200px 400px;
-	  margin: 0px;
-	}
-  
-	h1 {
-	  font-size: 1.5rem;
-	  margin: 0px;
-	}
-	
-	h2 {
-	  font-size: .8rem;
-	  margin: 0px;
-	}
-	
-	h4 {
-	  font-size: 1rem;
-	  margin: 0px;
-	}
-	
-	button {
-	  display: grid;
-	  grid-column: 4/5;
-	  grid-row: 1;
-	}
-  
-	nav ul.open {
-	  display: block;
-	}
-  
-	footer {
-	  display: grid;
-	  grid-template-columns: 20% 1fr 1fr;
-	  grid-template-rows: 1fr;
-	  margin: 10px 0px;
-	}
-  
-	.footerImg {
-	  grid-column: 1/2;
-	  grid-row: 1/2;
-	  width: 150%;
-	  margin: auto;
-	  padding: 25%;
-	}
-  
-	.footerTitle {
-	  grid-column: 2/3;
-	  grid-row: 1/2;
-	  text-align: center;
-	  margin: auto;
-	}
-	
-	.contactInfo {
-	  grid-column: 3/4;
-	  grid-row: 1/2;
-	  text-align: center;
-	  margin: auto;
-	}
-	
-	.social {
-	  grid-column: 3/4;
-	  grid-row: 1;
-	  margin-right: 40px;
-  }
-  
-	.event {
-	  grid-column: 1/4;
-	  grid-row: 5;
-	}
-  
-	.hero {
-	  grid-column: 1/5;
-	  grid-row: 1;
-	}
-  
-	.herobtn {
-	  position: absolute;
-	  font-size: .8rem;
-	  width: 150px;
-	}
-	
-	.nested {
-	  display: flex;
-	  grid-column: 1/5;
-	  grid-row: 3;
-	  border: 2px solid #32a899;
-	  
-	}
-  
-	.spotlight1 {
-	  flex: auto;
-	  margin: 10px;
-	  grid-column: 1/2;
-	  grid-row: 3;
-	  padding: 20px;
-	}
-  
-	.state-bank-of-southern-utah {
-	  padding-top: 15px;
-	}
-  
-	.spotlight2 {
-	  flex: auto;
-	  margin: 10px;
-	  grid-column: 3/4;
-	  grid-row: 3;
-	}
-  
-	.weather {
-	  grid-column: 4/5;
-	  grid-row: 5;
-	  margin: 5px 0px;
-	}
-  
-	.join {
-	  display: grid;
-	  grid-column: 1/5;
-	  grid-row: 4;
-	  position: relative;
-	  text-align: center;
-	  width: 100%;
-	  background-color: #869FC7;
-	  margin: 5px auto;
-	}
-  
-	.release {
-	  grid-column: 1/5;
-	  grid-row: 2;
-	  border: 2px solid #869FC7;
-	  padding: 10px;
-	}
-  
-	.releasetitle {
-	  text-align: center;
-	}
-  
-	.spotlight3 {
-	  display: none;
-	}
-  }
+	 header {
+	   display: grid;
+	   grid-template-columns: 1fr 1fr 1fr 1fr;
+	   grid-template-rows: 1fr;
+	 }
+	 
+	 .index {
+	   display: grid;
+	   grid-template-columns: 1fr 1fr 1fr 1fr;
+	   grid-template-rows: 300px 350px 400px 200px 400px;
+	   margin: 0px;
+	 }
+   
+	 .discover {
+	   display:grid;
+	   grid-template-columns: 1fr;
+	   grid-template-rows: .05fr 1fr 1fr 1fr 1fr;
+	 }
+   
+	 h1 {
+	   font-size: 1.5rem;
+	   margin: 0px;
+	 }
+	 
+	 h2 {
+	   font-size: 1.2rem;
+	   margin: 0px;
+	 }
+	 
+	 h4 {
+	   font-size: 1rem;
+	   margin: 0px;
+	 }
+	 
+	 button {
+	   display: grid;
+	   grid-column: 4/5;
+	   grid-row: 1;
+	 }
+   
+	 nav ul.open {
+	   display: block;
+	 }
+   
+	 footer {
+	   display: grid;
+	   grid-template-columns: 20% 1fr 1fr;
+	   grid-template-rows: 1fr;
+	   margin: 10px 0px;
+	 }
+   
+   
+	 .footerImg {
+	   grid-column: 1/2;
+	   grid-row: 1/2;
+	   width: 100%;
+	   margin: auto;
+	   padding: 25%;
+	 }
+   
+	 .footerTitle {
+	   grid-column: 2/3;
+	   grid-row: 1/2;
+	   text-align: center;
+	   margin: auto;
+	 }
+	 
+	 .contactInfo {
+	   grid-column: 3/4;
+	   grid-row: 1/2;
+	   text-align: center;
+	   margin: auto;
+	 }
+	 
+	 .social {
+	   grid-column: 3/4;
+	   grid-row: 1;
+	   margin-right: 40px;
+   }
+   
+	 .event {
+	   grid-column: 1/4;
+	   grid-row: 5;
+	 }
+   
+	 .hero {
+	   grid-column: 1/5;
+	   grid-row: 1;
+	 }
+   
+	 .heroimg {
+	   width: 100%;
+	   height: 100%;
+	 }
+   
+	 .herobtn {
+	   position: absolute;
+	   font-size: .8rem;
+	   width: 150px;
+	 }
+	 
+	 .nested {
+	   display: flex;
+	   grid-column: 1/5;
+	   grid-row: 3;
+	   border: 2px solid #3066BE;
+	   
+	 }
+   
+	 .spotlight1 {
+	   flex: auto;
+	   margin: 10px;
+	   grid-column: 1/2;
+	   grid-row: 3;
+	   padding: 20px;
+	 }
+   
+	 .state-bank-of-southern-utah {
+	   padding-top: 15px;
+	 }
+   
+	 .spotlight2 {
+	   flex: auto;
+	   margin: 10px;
+	   grid-column: 3/4;
+	   grid-row: 3;
+	 }
+   
+	 .weather {
+	   grid-column: 4/5;
+	   grid-row: 5;
+	   margin: 5px 0px;
+	 }
+   
+	 .join {
+	   display: grid;
+	   grid-column: 1/5;
+	   grid-row: 4;
+	   position: relative;
+	   text-align: center;
+	   width: 100%;
+	   background-color: #3398a5;
+	   margin: 5px auto;
+	 }
+   
+	 .release {
+	   grid-column: 1/5;
+	   grid-row: 2;
+	   border: 2px solid #3066BE;
+	   margin: 0;
+	   
+	 }
+   
+	 .releasetitle {
+	   text-align: center;
+	 }
+   
+	 .pinkdonutimg {
+	   height: 20%;
+  	   width: 60%;
+       margin-left: 20%;
+	   
+	 }
+   
+	 .news {
+	   margin-bottom: 20px;
+	 }
+   
+	 .spotlight3 {
+	   display: none;
+	 }
+   
+	 .hover:hover {box-shadow: 0 0 50px #333;}
+	 .mbm-difference:hover{mix-blend-mode:difference;}
+	 
+   }

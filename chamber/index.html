@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mowhaka Chamber of Commerce</title>
   <meta name="description" content="WDD 230 Chamber Home Page Build">
-  <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="shortcut icon" href="favicon.ico">
   <link href="styles/small.css" rel="stylesheet">
   <link href="styles/medium.css" rel="stylesheet">
   <link href="styles/large.css" rel="stylesheet">
@@ -16,131 +16,134 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <img class = "logo" src="images\Mohawka2.jpg" alt="Mowhaka Chamber of Commerce logo">
-    <div class="commerceTitle">
+  <header class="clearfix">
+    <figure class="logo">
+      <img class = "logo" src="images\Mohawka.webp" alt="Mowhaka Chamber of Commerce Logo"
+      srcset="images\Mohawka.webp 1x, images\Mohawka.webp 2x, 
+      images\Mohawka.webp 3x">
+    </figure>
+    
+    <div id="commerceTitle">
       <h1>Mowhaka</h1>
       <h2>Chamber of 
-         <br>Commerce</h2>
+        <br>Commerce</h2>
     </div>
-    <nav>
-   
+    <nav class="headerNav">
       <button id="button"><span>&#9776;</span><span>X</span></button>
       <ul id="ulList">
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Join</a></li>
-        <li><a href="#">Directory</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     <div class="social"> 
-      <a href="https://www.facebook.com/" class="facebook"><img src="images\facebook100.png" alt="Facebook"></a>
-      <a href="https://www.instagram.com/" class="instagram"><img src="images\instagram.png" alt="Instagram"></a>
+      <a class="facebook" href="https://www.facebook.com/"><img src="images/facebook100.png" alt="Facebook icon"></a>
+      <a class="Linkedin" href="https://www.instagram.com/"><img src="images\instagram.png" alt="Instagram icon"></a>
     </div>
     <div class="currentdate"><span id="currentdate"></span></div>
   </header>
     <div id="banner">
     </div>
-  <main>
+  <main class="index">
     <div class="event">
       <h3>Coming Events</h3>
-         <img class="eventimg" src="images\Halloween-event-resized.png" alt="Mowhaka local seasonal event">
-        <div class="eventinfo">
-         <h3>October, 2022, 19-Movie in the Park at Vernon Worthen Park 
-          and 26-PArty in the Park at Hidden Valley Park</h3>
-         <p>Show starts at Sunset and the party is from 3PM-9PM</p>
-         <p><strong>FREE ADMISSION for both events</strong></p>
-        </div>      
+      <img class="eventimg" src="images\Halloween-event-resized.png" alt="Mowhaka local Halloween event image">
+      <div class="eventinfo">
+      <p> <strong>October 2022, the 19th is Movie in the Park at Vernon Worthen Park. The 26th is Party in the Park at Hidden Valley Park </strong></p>
+      <p>Show starts at Sunset and the party is from 3PM-9PM</p>
+      <p><strong>FREE ADMISSION FOR BOTH EVENTS!</strong></p></div>
     </div>
-      <div class="hero">
-        <h3 class="herotitle">Community Unity!</h3>
-        <!--<img class="heroimg" src="images\community-unity-resized.png" alt="Image of Mowhaka town">-->
-        <img class="heroimg" src="images\wdd230-org880x950_resized.jpg" alt="Business Meeting">
-        <button class="herobtn">Join The Chamber</button>    
-      </div>
-      <div class="nested">
-
+    <div class="hero">
+      <h3 class="herotitle">Community Unity!</h3>
+      <figure class="herofig">
+        <img class="heroimg" src="images/wdd230-org_639.jpg" alt="Business meeting"
+        sizes="100vw"
+        srcset="images/wdd230-org400x400.jpg 639w, images/wdd230-orgmedium.jpg 959w, images/wdd230-org880x950.jpg 1200w" >
+      </figure>
+      <button class="herobtn">Join the Chamber!</button>
+    </div>
+     <div class="nested">
       <div class="spotlight1">
-        <h2>State Bank of Southern Utah</h2>
-        <img class="state-bank-of-southern-utah" src="images\state-bank-of-southern-utah.jpg" alt="picture of southern utah bank">
-        <h3 class="spotlight1quote">We proudly invest in your towns future for you and your future</h3>
-        <p>395 E St George Blvd, St. George, UT, 84770</p>
+        <h3>State Bank of Southern Utah</h3>
+        <img class="state-bank-of-southern-utah" src="images\state-bank-of-southern-utah.jpg" alt="Picture of Southern Utah bank">
+        <p class="spotlight1quote"><strong>Proudly investing in our towns future!</strong></p>
+        <p>395 E Mowhaka Blvd, Mowhaka, UT, 84770</p>
         <p>(435)674-4164</p>
       </div>
-        <div class="spotlight2">
-          <h3>Spotlight 2</h3>
-          <img src="images\Spotlight2_resized.png" alt="picture of The Garden Restaurant">
-          <h3 class="spotlight2quote">The Garden Restaurant is a staple of Mowhaka. It was started by the Pitellie family and has been passed down through the generations
-            and has maintained its culture, taste, and warm atmosphere. A lunch or dinner at The Garden will be a lasting memory. 
-          </h3>
-          <p>600 E St George Blvd, St. George, UT, 84770</p>
-          <p>(435)597-5530</p>
-        </div>
-         <div class="spotlight3">
-         <h3>Spotlight 3</h3>
-         <img class="firefighters" src="images\spotlight3_resized.jpg" alt="ST. George firefighters appreciation">
-         <h3 class="spotlight3quote">St. George fire fighters, we appreciate you! You have saved many town members and their homes over the years. Thank you!</h3>
-         <p>100 E St. George Blvd, St. George, UT, 84770</p>
-         <p>(435)946-5670</p>
-        </div>
+      <div class="spotlight2">
+        <h3>Hidden Garden Restaurant</h3>
+        <img src="images\Spotlight2_resized.png" alt="Image of Hidden Garden Restaurant">
+        <p class="spotlight2quote"><strong>Meals and Memories are Made Here</strong></p>
+        <p>500 E Mowhaka Blvd, Mowhaka, UT, 84770</p>
+        (435)597-4675
       </div>
+      <div class="spotlight3">
+        <h3>Mowhaka Firefighters</h3>
+        <img class= "firefighter" src="images\spotlight3_resized.jpg" alt="">
+        <p><strong>We proudly keep your 
+          <br>family safe</strong></p>
+        <p>100 N. Main st, Mowhaka, UT 84770</p>
+        <p>(435) 622-5562</p>
+      </div>
+    </div>
     <div class="weather">
-      <h3>St. George</h3>
+      <h3>Mowhaka</h3>
       <p id="temperatureF">
         <strong>
-          <span>76</span> °F
-        </strong>
-        </p>
-        <p><strong>Sunny &#9728;&#65039;</strong></p>
-      <p>H: 80&#176; &#160; L:52&#176;</p>
-      <p>Preciptation: 1%</p>
-      <p>Humidity: 18%</p>
+        <span>25</span> °F
+      </strong>
+      </p>
+      <p><strong>Partly Cloudy &#x26C5;</strong></p>
+      <p>H: 66&#176; &#160;  L: 46&#176;</p>
+      <p>Precipitation: 0%</p>
+      <p>Humidity: 26%</p>
       <div class="speed">
         <p>Wind Speed: </p>
-        <p id="windspeed"><span>2 </span>mph</p>
+        <p id="windspeed"><span>4 </span>mph</p>
       </div>
       <div class="wind">
         <p>Windchill: </p>
+        <p id="windchill"></p>
+      </div>
     </div>
     <div class="join">
       <button class="joinbtn">Join us!</button>
-      <p class="joinpara">Supoort your community! You can either apply to join the local Mowhaka Chamber of Commerce or you can donate to local businesses and the Chamber of Commerce at your our local office! 
-        You are what makes our community great!
-      </p>
-    </div>  
+      <p class="joinpara"></p>Support your community by joining the Mowhaka Chamber of Commerce</p>
+    </div>
     <div class="release">
       <h3 class=" releasetitle">News Release</h3>
       <div>
-        <img class="pinkdounutimg" src="images\pink-box-donuts-resized.png" alt="Image of St George Pink Donut shop">
-        <h3 class="news">St. George's new Pink Dounuts Shop</h3>
-        <p>Pink Box Doughnuts opens new location in downtown St. George with a large crowd
-           on <br>938 E St George Blvd, St. George, UT 84770
+        <img class="pinkdonutimg" src="images\pink-box-donuts-resized.png" alt="Image of Mowhaka's Pink Box Donut shop">
+        <h3 class="news">Mowhaka's new Pink Box Donut shop</h3>
+        <p>Pink Box Donuts opens new locaiton in downtown Mowhaka with a large crowd on 938 E Mowhaka Blvd, Mowhaka, UT, 84770
+          <br><strong>Endulge in your donut desire</strong>
         </p>
       </div>
     </div>
   </main>
   <footer>
-    <div class="footerImg"><img src="images\Mohawka2.jpg" alt="Mowhaka Chamber of Commerce Logo"></div>
+    <div class="footerImg">
+      <img src="images\Mohawka.webp" alt="Mowhaka Chamber of Commerce logo">
+    </div>
     <div class="footerTitle">
       <h3>Mowhaka Chamber Of Commerce</h3>
       <h4>136 North 100 East</h4>
-      <h4>St. George, Utah 84770</h4>
+      <h4>Mowhaka, Utah 84770</h4>
     </div>
     <div class="contactInfo">
-      <h4>Mowhakacc@st.george.org</h4>
+      <h4>mowhakacc@mcc.org</h4>
       <h4>+(435) 628-1650 </h4>
       <h4>&#128205;Location map</h4>
     </div>
     <div class="date">
       &copy;<span id="year"></span> Mowhaka Chamber | <strong>Sterling Tucker</strong> | WDD 230 Project | Last Modification: <span id="modifieddate"></span>
   </footer>
-
   <script src="scripts/currentdate.js"></script>
   <script src="https://kit.fontawesome.com/c12ac5d956.js" crossorigin="anonymous"></script>
   <script src="scripts/menu_open.js"></script>
   <script src="scripts/banner.js"></script>
   <script src="scripts/windchill.js"></script>
   <script src="scripts/lazyLoading.js"></script>
-
 </body>
 </html>
