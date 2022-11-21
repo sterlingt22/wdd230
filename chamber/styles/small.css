@@ -10,6 +10,10 @@ body {
   max-width: 1200px;
 }
 
+.dirBody {
+  max-width: 1200px
+}
+
 header {
   display: grid;
   grid-template-columns: 20% 1fr 1fr 1fr;
@@ -36,6 +40,46 @@ header {
 
 h1 h2 h3 h4 {
   font-family: 'roboto', serif;
+}
+
+.directoryh1 {
+  font-size: 2rem;
+  border: 2px solid rgba(55,93,219);
+  background-color: #0A1128;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.directoryh2 {
+  font-size: 1.4rem;
+}
+
+.dirpara {
+  font-size: large;
+  padding: 3px 0px;
+  margin: 0px;
+}
+
+.dirPhone {
+  margin-bottom: 20px;
+}
+
+.dirquote {
+  font-style: italic;
+  font-weight:bold
+}
+
+.dirurl {
+  text-decoration: none;
+  color:rgba(55,93,219)
+}
+
+.dirurl:hover {
+  background-color: #98E9DC;
+  padding: 4px;
+
 }
 
 p {
@@ -138,6 +182,60 @@ strong {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: .05fr .25fr 1fr 1fr 1fr;
+}
+
+.joinHTML {
+  padding: 5px;
+}
+
+.thankTitle {
+  text-align: center;
+  border: 2px solid rgba(55,93,219);
+  background-color: #0A1128;
+  color: white;
+  padding: 8px;
+} 
+
+.thankpara2  {
+  border-top: 2px solid #0A1128;
+  border-bottom: 2px solid #0A1128;
+  padding: 20px;
+  text-align: center;
+  background-color: #869FC7;
+}
+
+.mainJoin {
+  width: 95%;
+  margin: 10px auto;
+  background-color: #EDEBD7;
+  margin-bottom: 10px;
+  padding: 5px;
+
+}
+
+.dirMain {
+  background-color: #EDEBD7;
+  margin: 0 15px;
+}
+
+.dirheader, .dirMain, .dirfooter {
+  position: relative;
+}
+
+
+.thankpara {
+  padding: 10px;
+  font-weight:500;
+  color:#0A1128;
+  text-align: center;
+}
+
+
+#banner {
+  background-color: #98E9DC;
+  text-align: center;
+  padding: 5px 0px;
+  margin: 5px 0px;
 }
 
 .event {
@@ -328,6 +426,168 @@ strong {
 
 .firefighter {
   margin-left: 35%;
+}
+
+.discovertitle {
+  border: 2px solid #0b0f16;
+  background-color: #306ebe;
+  color:white;
+  text-align: center;
+  padding:10px;
+  margin: 10px 0px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.historyContainer {
+  grid-column: 1;
+  grid-row: 2;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: #3398a5;
+  
+}
+
+.historyContent {
+  padding: 10px;
+  text-align: left;
+
+}
+
+.histitle {
+  text-align: center;
+}
+
+.Farm {
+  padding: 5px;
+  margin-left: 12%;
+}
+
+.populationContainer {
+  background-color: #8cc9ec;
+  display: grid;
+  grid-column: 1;
+  grid-row: 3;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.populationinfo {
+  text-align: left;
+  padding: 10px;
+  margin: auto;
+}
+
+.poptitle {
+  text-align: center
+}
+
+.populationimg {
+  margin: auto;
+  margin-top: 10px;
+}
+
+.locationContainer {
+  display: grid;
+  grid-column: 1;
+  grid-row: 4;
+  padding: 5px;
+  background-color: #3398a5;
+  margin-top: 10px;
+}
+
+.locationInfo {
+  text-align: left;
+  padding: 10px;
+  margin: auto;
+}
+
+.loctitle {
+  text-align: center
+}
+
+.locationImg {
+  margin: auto;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.parkContainer {
+  grid-column: 1;
+  grid-row: 5;
+  padding: 5px;
+  margin-top: 10px;
+  border: 2px solid #4089FF;
+  background-color: #8cc9ec;
+}
+
+.parkContent {
+  text-align: left;
+  padding: 10px;
+}
+
+.parktitle {
+  text-align: center;
+}
+
+.parkImg {
+  padding: 5px;
+  margin: auto;
+}
+
+.parkimg {
+  margin-left: 15%
+}
+
+.const {
+  display: none;
+}
+
+.park {
+  margin-left: 2.5px;
+}
+
+.economicContainer {
+  grid-column:1;
+  grid-row: 6;
+  padding: 5px;
+  background-color: #3398a5;
+  margin-top: 10px;
+}
+
+.economicInfo {
+  padding: 10px;
+  text-align: left;
+  margin: auto;
+}
+
+.ecotitle {
+  text-align: center;
+}
+
+.scenic {
+  margin-left: 25%
+}
+
+.popIncrease{
+  text-align: center;
+}
+
+.googlemap {
+  text-align: center;
+}
+
+.towntitle {
+  text-align: left;
+}
+
+[data-src] {
+  filter: blur(0.2em);
+}
+
+img{
+  filter: blur(0em);
+  transition: filter 0.5s;
 }
 
 footer {
