@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Syracuse Chamber of Commerce/Join Page</title>
-    <meta name="description" content="Syracuse Chamber of Commerce website assignment for WDD 230: Web Frontend Development Join Page">
+    <title>Join Page for Mowhaka Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 Chamber Home Page Build">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="shortcut icon" href="favicon.ico">
     <link href="styles/small.css" rel="stylesheet">
@@ -13,43 +13,40 @@
     <link href="styles/large.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="clearfix">
       <figure class="logo">
-        <img class = "logo" src="images/SyracuseLogo_75.webp" alt="Logo for Syracuse Chamber of Commerce"
-        srcset="images/SyracuseLogo_75.webp 1x, images/SyracuseLogo_150.webp 2x, 
-        images/SyracuseLogo_300.webp 3x">
+        <img class = "logo" src="images\Mohawka.webp" alt="Mowhaka Chamber of Commerce Logo"
+        srcset="images\Mohawka.webp 1x, images\Mohawka.webp 2x, 
+        images\Mohawka.webp 3x">
       </figure>
       
       <div id="commerceTitle">
-        <h1>Syracuse</h1>
-        <h2>Chamber of Commerce</h2>
+        <h1>Mowhaka</h1>
+        <h2>Chamber of 
+          <br>Commerce</h2>
       </div>
       <nav class="headerNav">
-        <!-- add hamburger menu button - &#9776 is the code for the symbol -->
         <button id="button"><span>&#9776;</span><span>X</span></button>
         <ul id="ulList">
           <li><a href="index.html">Home</a></li>
-          <li><a href="discover.html">Discover</a></li>
-          <li><a href="directory.html">Directory</a></li>
+          <li><a href="disover.html">Discover</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
       <div class="social"> 
         <a class="facebook" href="https://www.facebook.com/"><img src="images/facebook100.png" alt="Facebook icon"></a>
-        <a class="Linkedin" href="https://www.linkedin.com/"><img src="images/linkedin100.png" alt="Linedin icon"></a>
-        <!-- <i><a class="fa-brands fa-facebook-f" href="https://www.facebook.com/" alt="Facebook link"></a></i>
-        <i><a class="fa-brands fa-linkedin-in" href="https://www.linkedin.com/"alt="Linkin link"></a></i> -->
+        <a class="instagram" href="https://www.instagram.com/"><img src="images\instagram.png" alt="Instagram icon"></a>
       </div>
       <div class="currentdate"><span id="currentdate"></span></div>
     </header>
     <main class="joinHTML">
-      <h1 class="joinFormTitle">Syracuse Chamber of Commerce Application Form</h1>
+      <h1 class="joinFormTitle">Application for Mowhaka Chamber of Commerce</h1>
       <form method="get" action="thanks.html">
         <fieldset>
-          <legend>Application Information</legend>
+           <legend>Application Information</legend>
           <label class="top">First Name* <input type="text" name="fname" required></label>
           <label class="top">Last Name* <input type="text" name="lname" required></label>
           <label class="top">Email* <input type="email" name="email" placeholder= "someone@gmail.com" required></label>
@@ -63,6 +60,7 @@
           <legend>Membership level</legend>
           <div>Select Membership Level</div>
           <label class="sbs"><input type="radio" name="member" value="npmember"> NP Membership</label>
+          <label class="sbs"><input type="radio" name="member" value="executiveemember"> Executive Membership</label>
           <label class="sbs"><input type="radio" name="member" value="bronzemember"> Bronze Membership</label>
           <label class="sbs"><input type="radio" name="member" value="silvermember"> Silver Membership</label>
           <label class="sbs"><input type="radio" name="member" value="goldmember"> Gold Membership</label>
@@ -71,51 +69,99 @@
         <div>
           <p id="subtime" style="display: none;"></p>
         </div>
-        <!-- <input onclick=" document.getElementById('submittedtime').style.color='blue'" class='close' title="Close submittedtime"></input> -->
       </form>
       <div class="membershipbenefits">
         <h3 class="membenefits">Membership Benefits</h3>
-        <h4 class="joinH4">NP membership - $Free</h4>
+        <h4 class="joinH4">NP membership - $500</h4>
         <ul>
-          <li>NP Members can post and show job openings on the Chamber Job Board.</li>
-          <li>Expand their reach through corporate events posted to the Community Calendar.</li> 
+          <li>Basic membership is only viable for non-profit organizations or companies with 3 or less 
+            employees. This membership level includes all Core Benefits and those listed below.</li>
+          <br><h4>Included Benefits:</h4>
+            <br><li>- One registration to Chamber Launch
+            <br>- Two registrations to one Business After Hours event (must attend Chamber Launch)</li> 
         </ul>
-        <h4 class="joinH4">Bronze Membership level - $1500</h4>
+        <h4 class="joinH4">Executive Membership level - $1500</h4>
         <ul>
-          <li>Benefits of the NP membership</li>
-          <li>Invitation to workshops, trainings and programs</li>
-          <li>Knowledge about key topics, upcoming events and unique opportunites available.</li>
-          <li>Membership orientations to learn benefits and meet other commerce members.</li>
+          <li>Get Recognized & Build Your Network
+            <br>- The Executive Level is designed to help you increase visibility in the business community. 
+            <br>- This membership level includes all Core Benefits and those listed below.</li>
+        <br><h4>Included Benefits:</h4>
+          <br><li>Engagement:
+            <br>- Two registrations to one Business After Hours event
+            <br>- Two registrations to Annual Legislative Reception
+            <br>- Two registrations to Chamber Launch
+            <br>- Invitation to participate in Chamber committees or task forces
+            <br>- Invitation to participate in Business Women’s Forum</li>
+          <li>Exposure:
+
+            <br>- Anniversary/Grand Opening/Ribbon Cutting (one request)
+            <br>- Enhanced website listing in Chamber Business Directory (organization and contact name, additional category, 
+            logo, two keywords, website and map)
+            <br>- Member spotlight (featured on social media platforms)</li>
           </ul>
-        <h4 class="joinH4">Silver Membership - $4000</h4>
+
+        <h4 class="joinH4">Bronze Membership - $4000</h4>
           <ul>
-            <li>Benefits of Bronze membership.</li>
-            <li>SEO (Search Engine Optimized) listing in the Online Chamber Business Directory.</li>
-            <li>Networking opportunities with member-pricing for programs, meetings and signature events.</li>
+            <li>Have a Seat at the Table & Grow Your Business
+            <br>- The silver Level is designed to increase your visibility while gaining resources to help your business. 
+            <br>- This membership level includes all Core Benefits and those listed below.</li>
+        <br><h4>Included Benefits:</h4>
+          <br><li>Engagement:
+             <br>- Four registrations to each Business After Hours event
+             <br>- Four registrations to Annual Legislative Reception
+             <br>- Two registrations to Chamber Launch
+             <br>- Invitation to participate in Chamber committees or task forces
+             <br>- One registration a quarter to a Policy Forum
+             <br>- Invitation to register for Annual Washington, D.C. Trip
+             <br>- Invitation to Circle of Influence events</li>
+            <li>Exposure:
+        
+             <br>- Anniversary/Grand Opening/Ribbon Cutting (one request)
+             <br>- Enhanced website listing in Chamber Business Directory (organization and contact name, additional category, logo, two keywords, website and map)
+             <br>- Member spotlight (featured on social media platforms)</li>
           </ul>
-        <h4 class="joinH4">Gold Membership - $6000</h4>
+        <h4 class="joinH4">Silver Membership - $8000</h4>
           <ul>
-            <li>Benefits of Silver Membership.</li>
-            <li>Chamber referrals to your business.</li>
-            <li>Option to post your company's announcements, and advertisement
-               in Member News section of the Chamber website.
+            <li>Empower Your Employees & Maximize Engagement Through Professional Engagement</li>
+            <br>- The Silver Level provides you with strategic networking and access. Engage with key decision makers and peers, explore best practices 
+            that advance the community. This membership level includes all Core Benefits and a broad range of enhanced engagement and exposure opportunities.
+        <br><h4>Included Benefits:</h4>
+            <br><li>Engagement:
+              <br>- Four registrations to each Business After Hours event
+              <br>- Four registrations to Annual Legislative Reception
+              <br>- Invitation to participate in Chamber committees or task forces
+              <br>- Two registrations to each Policy Forum
+              <br>- Invitation to register for Annual Washington, D.C. Trip
+              <br>- Invitation to Circle of Influence events
+             <li>Sponsorship:
+              <br>-Table Sponsorship (10 seats) to one of the following:
+
+                <br>--- Small Business Summit (January)
+                <br>--- Annual Meeting and Awards Luncheon (September)
+                <br>--- Women & Business Conference and ATHENA Awards Luncheon (November)</li>
+             <li>Exposure:
+
+                <br>- Anniversary/Grand Opening/Ribbon Cutting (one request)
+                <br>- Enhanced website listing in Chamber Business Directory (organization and contact name, additional category, logo, five keywords, website and map)
+                <br>- Member spotlight (featured on social media platforms)
+                <br>- Company advertisement on Chamber podcast (based on availability)</li>
+             </li>  
             </li>
-            <li>Sponsorship opportunities</li>
           </ul>
-      </div> 
+      </div>
     </main>
     <footer>
       <div class="footerImg">
-        <img src="images/SyracuseLogo_75.webp" alt="Logo for Syracuse Chamber of Commerce">
+        <img src="images\Mohawka.webp" alt="Mowhaka Chamber of Commerce Logo">
       </div>
       <div class="footerTitle">
-        <h3>Syracuse Chamber Of Commerce</h3>
-        <h4>2200 West 1700 South</h4>
-        <h4>Syracuse, Utah 84075</h4>
+        <h3>Mowhaka Chamber Of Commerce</h3>
+        <h4>136 North 100 East</h4>
+        <h4>Mowhaka, Utah 84770</h4>
       </div>
       <div class="contactInfo">
-        <h4>info@syracuse.org</h4>
-        <h4>+(801) 847-5210 </h4>
+        <h4>mowhakacc@mcc.org</h4>
+        <h4>+ 1(435) 628-1650 </h4>
         <h4>&#128205;Location map</h4>
       </div>
       <div class="VisDate">
@@ -123,14 +169,13 @@
         <p class="VisitDate">Date/Time:  <span class="today"></span></p>
     </div>    
       <div class="date">
-        &copy;<span id="year"></span> Syracuse Chamber | <strong>Mitchelle Garrett</strong> | WDD 230 Project | Last Modification: <span id="modifieddate"></span>
+        &copy;<span id="year"></span> Mowhaka Chamber | <strong>Sterling Tucker</strong> | WDD 230 Project | Last Modification: <span id="modifieddate"></span>
       </div>
     </footer>
     <script src="scripts/currentdate.js"></script>
     <script src="https://kit.fontawesome.com/c12ac5d956.js" crossorigin="anonymous"></script>
     <script src="scripts/menu_open.js"></script>
     <script src="scripts/banner.js"></script>
-    <!-- <script src="scripts/windchill.js"></script> -->
     <script src="scripts/lazyLoading.js"></script>
     <script src="scripts/localStorage.js"></script>
   </body>

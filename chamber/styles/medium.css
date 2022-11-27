@@ -1,22 +1,21 @@
-@media only screen and (min-width: 40rem) {
+@media only screen and (min-width: 600px) {
 	 header {
 	   display: grid;
 	   grid-template-columns: 1fr 1fr 1fr 1fr;
 	   grid-template-rows: 1fr;
 	 }
+   
+	 .logo {
+	   grid-column: 1;
+	   grid-row: 1;
+	   margin-left: 2%;
+	   width: 80%;
+	 }
 	 
 	 .index {
-	   display: grid;
-	   grid-template-columns: 1fr 1fr 1fr 1fr;
-	   grid-template-rows: 300px 350px 400px 200px 400px;
-	   margin: 0px;
+	   grid-template-rows: 300px 320px 320px 120px 1fr;
 	 }
    
-	 .discover {
-	   display:grid;
-	   grid-template-columns: 1fr;
-	   grid-template-rows: .05fr 1fr 1fr 1fr 1fr;
-	 }
    
 	 h1 {
 	   font-size: 1.5rem;
@@ -85,17 +84,16 @@
 	 }
    
 	 .hero {
+	   position:relative;
 	   grid-column: 1/5;
 	   grid-row: 1;
 	 }
    
 	 .heroimg {
-	   width: 100%;
-	   height: 100%;
+	   position: absolute;
 	 }
    
 	 .herobtn {
-	   position: absolute;
 	   font-size: .8rem;
 	   width: 150px;
 	 }
@@ -103,26 +101,16 @@
 	 .nested {
 	   display: flex;
 	   grid-column: 1/5;
-	   grid-row: 3;
+	   grid-row: 3/4;
 	   border: 2px solid #3066BE;
-	   
 	 }
    
 	 .spotlight1 {
-	   flex: auto;
-	   margin: 10px;
 	   grid-column: 1/2;
 	   grid-row: 3;
-	   padding: 20px;
-	 }
-   
-	 .state-bank-of-southern-utah {
-	   padding-top: 15px;
 	 }
    
 	 .spotlight2 {
-	   flex: auto;
-	   margin: 10px;
 	   grid-column: 3/4;
 	   grid-row: 3;
 	 }
@@ -130,7 +118,6 @@
 	 .weather {
 	   grid-column: 4/5;
 	   grid-row: 5;
-	   margin: 5px 0px;
 	 }
    
 	 .join {
@@ -140,8 +127,7 @@
 	   position: relative;
 	   text-align: center;
 	   width: 100%;
-	   background-color: #3398a5;
-	   margin: 5px auto;
+	   background-color: #869FC7;
 	 }
    
 	 .release {
@@ -157,17 +143,42 @@
 	 }
    
 	 .pinkdonutimg {
-	   height: 20%;
-  	   width: 60%;
-       margin-left: 20%;
-	   
-	 }
-   
+		width: 70%;
+		margin-left: 15%;
+	  }
+
 	 .news {
 	   margin-bottom: 20px;
 	 }
    
-	 .spotlight3 {
+   
+   .historyContainer, .populationContainer, .locationContainer, .businessContainer, .economicContainer {
+	 display: flex;
+	 padding: 15px;
+   }
+   
+	 .const {
+	   display: none;
+	 }
+   
+	 .scenic {
+	   padding: 5px;
+	   margin-right: 10%;
+	 }
+   
+	 form label.top input {
+	   max-width: 75%;
+	 }
+   
+	 .contactMain {
+	   display: grid;
+	   grid-template-columns: .75fr;
+	   grid-template-rows: 1fr;
+	   margin: 10px;
+	   grid-gap: 10px;
+	 }
+   
+	 .membershipbenefits {
 	   display: none;
 	 }
    
