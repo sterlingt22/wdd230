@@ -677,7 +677,7 @@ form label.top input:required:valid {
 }
 
 .dirMain {
-  background-color: #EDEBD7;
+  background-color: white;
   margin: 0 15px;
 }
 
@@ -688,8 +688,8 @@ form label.top input:required:valid {
 
 .directoryh1 {
   font-size: 2rem;
-  border: 2px solid rgba(55,93,219);
-  background-color: #0A1128;
+  border: 2px solid #000;
+  background-color: #306ebe;
   color: white;
   padding: 10px;
   margin: 5px 0;
@@ -699,9 +699,7 @@ form label.top input:required:valid {
 .businesses {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 2px;
-  background-color: #869FC7;
-  border: 22px solid #869FC7;
+  grid-gap: 2px
 }
 
 .list {
